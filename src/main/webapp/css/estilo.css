@@ -1,0 +1,228 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18/06/2024, 12:22:03
+    Author     : valdemar
+*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #f3f3f3;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+.main-moedas {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 70%;
+    text-align: center;
+}
+
+.menu-moedas a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-weight: bolder;
+    color: rgb(73, 129, 198);
+}
+
+.menu-moedas a:hover {
+    background-color: #f3f3f3;
+}
+
+.main-usuario {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 80%;
+    text-align: left;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100%;
+    font-size: 16px;
+}
+
+.campo-pesquisa {
+    display: flex;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-blockchain {
+    min-height: 500px;
+    display: flex;
+    overflow: scroll;
+}
+
+.area-bloco{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    min-width: 500px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.conteudo-bloco{
+    font-size: 14.5px;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btt-add-info {
+    margin-top: 12px;
+    margin-left: 20px;
+    width: auto;
+    cursor: pointer;
+    background-color: #4cbf50;
+}
+
+.btt-editar-info {
+    margin-top: 12px;
+    margin-left: 20px;
+    width: auto;
+    cursor: pointer;
+    background-color: #4cbf50;
+}
+
+.btt-add-info2 {
+    margin-top: 8px;
+    width: auto;
+    cursor: pointer;
+    background-color: #c1c1c1;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 100px auto;
+    /* 100px from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.fechar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fechar-editar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fechar:hover,
+.fechar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fechar-editar:hover,
+.fechar-editar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
