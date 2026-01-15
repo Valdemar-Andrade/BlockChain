@@ -9,6 +9,7 @@ Este projeto não tem como foco performance ou uso em produção, mas sim **apre
 - Estrutura de um bloco
 - Encadeamento por hash
 - Imutabilidade básica
+- Criptografia (Blowfish)
 - Comunicação entre peers (sockets)
 - Persistência de dados
 - Autenticação simples de usuários
