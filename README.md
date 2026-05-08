@@ -1,41 +1,40 @@
-# Projeto Blockchain em Java
+# Blockchain Project in Java
 
-## Descrição
-Projeto académico desenvolvido em Java com o objetivo de explorar os **conceitos fundamentais de Blockchain**, como blocos, hash, encadeamento e comunicação entre peers.
+## Description
+This academic project, developed in Java, aims to explore the **fundamental concepts of Blockchain**, such as blocks, hashing, chaining, and peer-to-peer communication.
 
-Este projeto não tem como foco performance ou uso em produção, mas sim **aprendizado técnico e consolidação de conceitos**.
+This project does not focus on performance or production use, but rather on **technical learning and consolidation of concepts**.
 
-## Conceitos abordados
-- Estrutura de um bloco
-- Encadeamento por hash
-- Imutabilidade básica
-- Criptografia (Blowfish)
-- Comunicação entre peers (sockets)
-- Persistência de dados
-- Autenticação simples de usuários
+## Concepts Covered
+- Block Structure
+- Hash Chaining
+- Basic Immutability
+- Cryptography (Blowfish)
+- Peer-to-Peer Communication (Sockets)
+- Data Persistence
+- Simple User Authentication
 
-## Tecnologias
+## Technologies
 - Java
 - Servlets / JSP
 - JDBC
 - Sockets
 - Maven
 
-## Estrutura do projeto
-- `Modelo`: Entidades principais da blockchain e do domínio
-- `DAO`: Acesso a dados
-- `Servlet`: Camada de controle
-- `Sockets`: Comunicação entre peers
-- `utils`: Utilitários e funções auxiliares
+## Project Structure
+- `Model`: Main Blockchain and Domain Entities
+- `DAO`: Data Access
+- `Servlet`: Control Layer
+- `Sockets`: Peer-to-Peer Communication
+- `Utils`: Auxiliary Utilities and Functions
 
-## Objetivo académico
-Este projeto foi desenvolvido como parte do processo de aprendizagem em Engenharia Informática, com foco em:
-- Organização de código
-- Boas práticas básicas (Clean Code)
-- Separação de responsabilidades
-- Compreensão prática de Blockchain
+## Academic Objective
+This project was developed as part of the learning process in Computer Engineering, focusing on:
+- Code Organization
+- Basic Best Practices (Clean Code)
+- Separation of Responsibilities
+- Practical Understanding of Blockchain
 
-## Como executar
-1. Importar o projeto como Maven Project
-2. Executar em um servidor compatível com Servlets (Tomcat, GlassFish)
-
+## How to Run
+1. Import the project as a Maven Project
+2. Running on a Servlet-compatible server (Tomcat, GlassFish)
